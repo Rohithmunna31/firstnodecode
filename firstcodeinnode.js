@@ -9,12 +9,11 @@ const student = {
     name:'Rohith',
     rollno:'1922',
     interest:'webdevelopment',
-    greeting: ()=> {
+    greeting() {
         console.log('this is' + this.name);
     }
 }
 
 console.log(student);
-
 
 
